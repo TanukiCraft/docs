@@ -18,6 +18,8 @@ jobs:
       
       - name: Build and Commit
         uses: sphinx-notes/pages@v2
+        with: 
+          sphinx_options: 'sphinx-build -E  --keep-going'
 
       - name: Push changes
         uses: peaceiris/actions-gh-pages@v3
