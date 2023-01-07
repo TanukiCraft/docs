@@ -14,6 +14,10 @@ jobs:
           cache: "pip" # caching pip dependencies
 
       - run: pip install furo
+      
+      - uses: ammaraskar/sphinx-action@master
+        with:
+          docs-folder: "docs/"
           
       - name: Commit documentation changes
         run: |
