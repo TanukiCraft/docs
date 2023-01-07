@@ -17,13 +17,11 @@ jobs:
 
       - name: Main
         run: |
-          ls
+          cd docs
           
       - name: Build and Commit
         uses: sphinx-notes/pages@master
-        with: 
-          sphinx_options: 'sphinx-build -E --keep-going -d ./'
-
+        
       - name: Push changes
         uses: peaceiris/actions-gh-pages@v3
         with:
