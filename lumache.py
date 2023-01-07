@@ -1,8 +1,8 @@
 """
-Lumache - Python library for cooks and food lovers. REMOVE LUMACHE.PY FROM PROJECT so itll be 100% just tanuki docs, also check pyproject.toml
+Lumache - Python library for cooks and food lovers.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 
 class InvalidKindError(Exception):
@@ -13,6 +13,7 @@ class InvalidKindError(Exception):
 def get_random_ingredients(kind=None):
     """
     Return a list of random ingredients as strings.
+
     :param kind: Optional "kind" of ingredients.
     :type kind: list[str] or None
     :raise lumache.InvalidKindError: If the kind is invalid.
