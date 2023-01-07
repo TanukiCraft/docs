@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'TanukiCraft'
+copyright = '2023, Drac, Insert, Tom, Shiro, Jura, Kobe, Kai, Jura\'s foot, Jura foot\'s toe'
+author = 'Drac'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.1a'
+version = '0.1.0a'
 
 # -- General configuration
 
@@ -28,7 +28,6 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
-
 html_theme = 'furo'
 
 # -- Options for EPUB output
