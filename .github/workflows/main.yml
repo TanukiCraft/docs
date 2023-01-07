@@ -17,7 +17,7 @@ jobs:
 
       - name: Main
         run: |
-          - ls
+          ls
           
       - name: Build and Commit
         uses: sphinx-notes/pages@master
