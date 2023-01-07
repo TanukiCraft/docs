@@ -16,7 +16,7 @@ jobs:
       - run: pip install furo
           
       - name: Build and Commit
-        uses: ammaraskar/sphinx-action@0.4
+        uses: sphinx-notes/pages@3.0beta
 
         
       - name: Main
