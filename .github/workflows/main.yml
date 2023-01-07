@@ -19,8 +19,6 @@ jobs:
         run: |
           cd docs
           ls
-          working-directory: ./docs
-          ls
           
       - name: Build and Commit
         uses: sphinx-notes/pages@master
