@@ -14,14 +14,10 @@ jobs:
           cache: "pip" # caching pip dependencies
 
       - run: pip install furo
-
-      - name: Main
-        run: |
-          cd docs
-          ls
           
       - name: Build and Commit
-        uses: sphinx-notes/pages@master
+        uses: ammaraskar/sphinx-action@0.4
+
         
       - name: Main
         run: |
