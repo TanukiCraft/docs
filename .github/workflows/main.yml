@@ -15,11 +15,14 @@ jobs:
 
       - run: pip install furo
 
-      
+      - name: Main
+        run: |
+          - ls
+          
       - name: Build and Commit
-        uses: sphinx-notes/pages@v2
+        uses: sphinx-notes/pages@master
         with: 
-          sphinx_options: 'sphinx-build -E  --keep-going'
+          sphinx_options: 'sphinx-build -E --keep-going -d ./'
 
       - name: Push changes
         uses: peaceiris/actions-gh-pages@v3
