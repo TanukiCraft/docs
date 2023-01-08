@@ -1,5 +1,5 @@
 Welcome to TanukiCraft's documentation!
-===================================
+=======================================
 
 
 
@@ -13,7 +13,7 @@ Welcome to TanukiCraft's documentation!
 
 **TanukiCraft** is a Minecraft server featuring a customized Towny mode and a Java-Bedrock Crossplay Oneblock mode. 
 ..
-   [note] add refs, more info, make it appealing for this page only 
+   [comment] add refs, more info, make it appealing for this page only 
 hyperlink: `Open Food Facts database <https://world.openfoodfacts.org/>`_
 text *formatting* and some **more** formatting 
 
@@ -29,11 +29,12 @@ ref :ref:`installation` references a point in a page ``.. _installation:``
 Contents
 --------
 toctree below.
+
 ..
    [another comment] in RST. If the doc file(s) dont exist for the referenced doc, it wont show up after building the docs
 
 .. toctree::
 
    usage
-   api
+   contributing
    tooltips
