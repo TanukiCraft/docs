@@ -11,7 +11,3 @@ We do NOT support pirated clients!
 
 What game modes are available?
 ------------------------------
-
-
-
-
