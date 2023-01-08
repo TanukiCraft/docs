@@ -34,6 +34,7 @@ html_theme_options = {
     "source_repository": "https://github.com/tanukiCraft/docs",
     "source_branch": "main",
     "source_directory": "docs/",
+    "sidebar_hide_name": True,
     "light_logo": "TanukiCraft.png",
     "dark_logo": "TanukiCraft.png",
 }
