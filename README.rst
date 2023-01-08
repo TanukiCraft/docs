@@ -7,3 +7,5 @@ https://tanukicraft.github.io/docs/ (Temporary. Will be changed to custom domain
 gh pages decided not to work, if it works, it works, if not, then not, WHO KNOWS. ok it does work, but does it now hehe
 
 please save me
+im crying
+really
