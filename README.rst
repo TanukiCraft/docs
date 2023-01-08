@@ -9,3 +9,5 @@ gh pages decided not to work, if it works, it works, if not, then not, WHO KNOWS
 please save me
 im crying
 really
+
+i got hope, im not sure tho
