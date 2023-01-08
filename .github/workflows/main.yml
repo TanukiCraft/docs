@@ -23,6 +23,14 @@ jobs:
           # Disable dry run and actually get stuff deleted
           dry_run: no
 
+      - name: 
+      uses: peterjgrainger/action-create-branch@v2.2.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        branch: 'gh-pages'
+        sha: '${{ github.event.pull_request.head.sha }}'
+
       - name: Build and Commit
         uses: sphinx-notes/pages@v2
 
