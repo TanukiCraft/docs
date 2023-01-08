@@ -1,24 +1,17 @@
-Usage
+FAQ
 =====
 
-.. _installation:
-
-lorem ipsum or something
-------------------------
-
-To use Lumache, first install it using pip no dont:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
+What version does the server support?
+-------------------------------------
+We support Java 1.19.x on all servers. Only Oneblock supports Bedrock.
+Your Bedrock client should always be on the latest version for the best
+experience.
+We do NOT support pirated clients!
 
 
-hFor example:
+What game modes are available?
+------------------------------
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+
+
 
