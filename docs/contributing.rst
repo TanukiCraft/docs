@@ -9,7 +9,7 @@ Basic information
 .. important::
     We are using `Furo <https://github.com/pradyunsg/furo>`_ as theme for this documentation.
     See the `Furo Markup reference <https://pradyunsg.me/furo/reference/>`_ to get familiar with
-    Furo's elements
+    Furo's elements.
 
 
 Editing a page
