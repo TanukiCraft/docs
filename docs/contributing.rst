@@ -8,8 +8,12 @@ Basic information
 -----------------
 .. important::
     We are using `Furo <https://github.com/pradyunsg/furo>`_ as theme for this documentation.
-    See the `Furo Markup reference <https://pradyunsg.me/furo/reference/>`_ for information on 
+    See the `Furo Markup reference <https://pradyunsg.me/furo/reference/>`_ to get familiar with
+    Furo's elements
 
+
+Editing a page
+~~~~~~~~~~~~~~
 Visual Studio Code in addition to the reStructuredText and reStructuredText Syntax
 extensions provide an easier experience while editing RST files.
 
@@ -19,8 +23,8 @@ extensions provide an easier experience while editing RST files.
 
 
 
-Report an issue
----------------
+Reporting an issue
+------------------
 If you noticed outdated/missing content or want to add something 
 (without knowing how to add it) anywhere in the documentary, please 
 create an issue on GitHub.
