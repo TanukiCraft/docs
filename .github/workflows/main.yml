@@ -1,26 +1,17 @@
 name: createDocs
 on:
   push:
-    branches: [main]
+    branches: [master]
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  pages:
+    runs-on: ubuntu-20.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-
-        with:
-          python-version: "3.9"
-          cache: "pip" # caching pip dependencies
-
-      - run: pip install furo
-      
-      - name: Build and Commit
-        uses: sphinx-notes/pages@v2
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          branch: gh-pages
-          directory: gh-pages
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    - id: deployment
+      uses: sphinx-notes/pages@v3
