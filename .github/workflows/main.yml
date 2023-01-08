@@ -1,7 +1,7 @@
 name: createDocs
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   pages:
