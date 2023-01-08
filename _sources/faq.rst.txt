@@ -9,5 +9,9 @@ experience.
 We do NOT support pirated clients!
 
 
-What game modes are available?
-------------------------------
+Available game modes
+--------------------
+change when idk
+Oneblock featuring Java-Bedrock Crossplay
+Towny survival (Java only)
+Temporary minimal custom survival server 
