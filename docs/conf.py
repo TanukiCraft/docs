@@ -29,10 +29,13 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 html_theme = 'furo'
+html_static_path = ["_static"]
 html_theme_options = {
     "source_repository": "https://github.com/tanukiCraft/docs",
     "source_branch": "main",
     "source_directory": "docs/",
+    "light_logo": "TanukiCraft.png",
+    "dark_logo": "TanukiCraft.png",
 }
 
 # -- Options for EPUB output
