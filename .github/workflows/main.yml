@@ -19,7 +19,8 @@ jobs:
       - name: Build and Commit
         uses: sphinx-notes/pages@v2
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
