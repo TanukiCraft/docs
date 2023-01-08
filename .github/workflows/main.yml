@@ -19,7 +19,7 @@ jobs:
         id: delete_stuff
         with:
           github_token: ${{ github.token }}
-          last_commit_age_days: 100
+          last_commit_age_days: 0
           github_base_url: https://github.mycompany.com/api/v3
 
           # Disable dry run and actually get stuff deleted
