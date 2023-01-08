@@ -11,12 +11,8 @@ extensions provide an easier experience while editing RST files.
 
 You can also edit those on GitHub and create a pull request when you are done.
 
+Please do not make large changes at once.
 
-
-
-
-..
-    [aaa] move this to separate file or title this differently 
 Report an issue
 ---------------
 If you noticed outdated/missing content or want to add something 
