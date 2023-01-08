@@ -9,7 +9,7 @@ Basic information
 .. important::
     We are using `Furo <https://github.com/pradyunsg/furo>`_ as theme for this documentation.
     See the `Furo Markup reference <https://pradyunsg.me/furo/reference/>`_ to get familiar with
-    Furo's elements
+    Furo's elements.
 
 
 Editing a page
@@ -20,7 +20,6 @@ extensions provide an easier experience while editing RST files.
 .. tip:: 
     You will see a pen icon at the top right of every page next to the theme toggle button
     that will take you to the source file on GitHub to edit it.
-
 
 
 Reporting an issue
