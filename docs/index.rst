@@ -6,7 +6,7 @@ Welcome to Lumache's documentation!
 **Lumche** (/lu'make/) is a Python library for cooks and food lovers i guess
 that creates recipes mixing random ingredients. ok.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *
+and offers a *simple* and * 
 
 ..
    [this is a] Comment in RST files! Use it to add information for other contributors.
