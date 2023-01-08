@@ -6,8 +6,8 @@ project = 'TanukiCraft'
 copyright = '2023, Drac, Insert, Tom, Shiro, Jura, Kobe, Kai, Jura\'s foot, Jura foot\'s toe'
 author = 'Drac'
 
-release = '0.3a'
-version = '0.3.0a'
+release = '0.4a'
+version = '0.4.0a'
 
 # -- General configuration
 
