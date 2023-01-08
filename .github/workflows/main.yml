@@ -14,22 +14,9 @@ jobs:
 
       - run: pip install furo
 
-      - uses: actions/checkout@v1
-      - uses: ammaraskar/sphinx-action@master
+      - uses: seanzhengw/sphinx-pages@master
         with:
-          docs-folder: "docs/"
-
-      - name: Commit documentation changes
-        run: |
-          git clone https://github.com/tanukiCraft/docs.git --branch gh-pages --single-branch gh-pages
-          cp -r docs/* gh-pages/
-          cd gh-pages
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Update documentation" -a || true
-          # The above command will fail if no changes were present, so we ignore
-          # the return code.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
