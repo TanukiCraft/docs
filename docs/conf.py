@@ -27,14 +27,19 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+# tab icon
+html_favicon = 'Tanuki.ico'
+
 # -- Options for HTML output
 html_theme = 'furo'
-html_static_path = ["_static"]
+html_static_path = ["_static"] # for images, custom css and js, etc.
 html_theme_options = {
+    # for edit button
     "source_repository": "https://github.com/tanukiCraft/docs",
     "source_branch": "main",
     "source_directory": "docs/",
     
+    # Sidebar
     "sidebar_hide_name": True,
     "light_logo": "TanukiCraft.png",
     "dark_logo": "TanukiCraft.png",

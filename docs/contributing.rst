@@ -22,7 +22,6 @@ extensions provide an easier experience while editing RST files.
     that will take you to the source file on GitHub to edit it.
 
 
-
 Reporting an issue
 ------------------
 If you noticed outdated/missing content or want to add something 
