@@ -20,7 +20,7 @@ jobs:
           git --version
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-          git branch --delete gh-pages
+          git push origin --delete gh-pages
 
       - name: Build and Commit
         uses: sphinx-notes/pages@v2
