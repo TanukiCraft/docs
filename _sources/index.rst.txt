@@ -5,7 +5,7 @@ Welcome to TanukiCraft's documentation!
 
 
 ..
-   [this is a] Comment in RST files! Use it to add information for other contributors.
+   [thisIsA] Comment in RST files! Use it to add information for other contributors.
 
 
 
@@ -31,10 +31,9 @@ Contents
 toctree below.
 
 ..
-   [another comment] in RST. If the doc file(s) dont exist for the referenced doc, it wont show up after building the docs
+   [anotherComment] in RST. If the doc file(s) dont exist for the referenced doc, it wont show up after building the docs
 
 .. toctree::
 
    usage
    contributing
-   tooltips
