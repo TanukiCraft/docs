@@ -4,7 +4,7 @@ Usage
 .. _installation:
 
 lorem ipsum or something
-------------
+------------------------
 
 To use Lumache, first install it using pip no dont:
 
