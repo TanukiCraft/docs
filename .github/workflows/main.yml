@@ -14,23 +14,6 @@ jobs:
 
       - run: pip install furo
 
-      - name: Delete those pesky dead branches
-        uses: phpdocker-io/github-actions-delete-abandoned-branches@v1
-        with:
-          github_token: ${{ github.token }}
-          last_commit_age_days: -1
-
-          # Disable dry run and actually get stuff deleted
-          dry_run: no
-
-      - name: 
-        uses: peterjgrainger/action-create-branch@v2.2.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          branch: 'gh-pages'
-          sha: '${{ github.event.pull_request.head.sha }}'
-
       - name: Build and Commit
         uses: sphinx-notes/pages@v2
 
