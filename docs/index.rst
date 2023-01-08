@@ -1,15 +1,22 @@
-Welcome to Lumache's documentation!
+Welcome to TanukiCraft's documentation!
 ===================================
 
 
 
-**Lumche** (/lu'make/) is a Python library for cooks and food lovers i guess
-that creates recipes mixing random ingredients. ok.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and * 
 
 ..
    [this is a] Comment in RST files! Use it to add information for other contributors.
+
+
+
+
+
+**TanukiCraft** is a Minecraft server featuring a customized Towny mode and a Java-Bedrock Crossplay Oneblock mode. 
+..
+   [note] add refs, more info, make it appealing for this page only 
+hyperlink: `Open Food Facts database <https://world.openfoodfacts.org/>`_
+text *formatting* and some **more** formatting 
+
 
 doc :doc:`usage` references a doc page (file name? i think? not sure yet, if i remember to update this you wont see this anymore hah, L)
 ref :ref:`installation` references a point in a page ``.. _installation:``
